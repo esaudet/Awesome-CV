@@ -13,7 +13,6 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
 
-
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
@@ -26,19 +25,23 @@
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
+% Good lang
+\en{\usepackage[english]{babel}}
+\fr{\usepackage[francais]{babel}}
+
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-darknight}
 % Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
+%\definecolor{awesome}{HTML}{414141}
 
 % Colors for text
 % Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{333333}
+%\definecolor{graytext}{HTML}{5D5D5D}
+%\definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
@@ -53,28 +56,16 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\name{Étienne}{St-Amant Audet}
+\position{\en{it engineering}\fr{Étudiant}{\enskip\cdotp\enskip}\en{student}\fr{Génie des technologies de l'information}}
+%\address{}
+\mobile{\href{tel:15143773533}{(514) 377-3533}}
+\email{etienne.st-amant-audet.1@ens.etsmtl.ca}
+\homepage{esaudet.com}
+\github{esaudet}
+\linkedin{esaudet}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-\quote{``Be the change that you want to see in the world."}
-
+\quote{``\en{To succeed, planning alone is insufficient. One must improvise as well.”}\fr{Pour réussir, il ne suffit pas de prévoir. Il faut aussi savoir improviser."} --- Isaac Asimov}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -87,8 +78,8 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {Étienne St-Amant-Audet}
+  {Curriculum Vitae}
 
 
 %-------------------------------------------------------------------------------
@@ -96,13 +87,14 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
-\input{cv/skills.tex}
 \input{cv/experience.tex}
+\input{cv/skills.tex}
 \input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+
+%\input{cv/honors.tex}
+%\input{cv/presentation.tex}
+%\input{cv/writing.tex}
+%\input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
