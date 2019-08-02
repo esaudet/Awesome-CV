@@ -48,7 +48,7 @@ At a command prompt, run
 $ make pdf
 ```
 
-This should result in the creation of ``output/{your-cv}.pdf and {your-coverletter.pdf}``
+This should result in the creation of ``output/{your-cv}.pdf and output/{your-coverletter.pdf}``
 
 ## License
 CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
