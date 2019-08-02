@@ -55,7 +55,7 @@ CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Credit
 
-All the credit should go to [posquit0](https://github.com/posquit0). I only added a bilingual fonctionnality with the original proposed template and restructured a bit the repo to my linking.
+All the credit should go to [posquit0](https://github.com/posquit0). I only added a bilingual fonctionnality with the original proposed template and restructured a bit the repo to my liking.
 
 [**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
