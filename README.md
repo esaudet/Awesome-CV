@@ -20,15 +20,18 @@
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+You can see [PDF-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-en.pdf) and [PDF-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-fr.pdf)
 
-[![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+| cv-en | cv-fr |
+|:---:|:---:|
+| [![cv-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-en.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-en.pdf)  | [![cv-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-fr.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/cv-fr.pdf) |
+
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+You can see [PDF](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.pdf)
 
-[![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+[![Cover Letter(Awesome)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.pdf)
 
 ## How to Use
 
@@ -51,6 +54,8 @@ This should result in the creation of ``output/{your-cv}.pdf and {your-coverlett
 CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Credit
+
+All the credit should go to [posquit0](https://github.com/posquit0). I only added a bilingual fonctionnality with the original proposed template and restructured a bit the repo to my linking.
 
 [**LaTeX**](http://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
