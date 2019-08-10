@@ -1,0 +1,11 @@
+% Bilingual 
+\RequirePackage{ifthen}
+\newif\ifen
+\newif\iffr
+\newcommand{\en}[1]{\ifen#1\fi}
+\newcommand{\fr}[1]{\iffr#1\fi}
+
+% French
+\frtrue
+
+\input{coverletter/coverletter.tex}

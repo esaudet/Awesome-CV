@@ -26,9 +26,6 @@
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
-% French
-\usepackage[francais]{babel}
-
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -57,7 +54,7 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 \photo[circle,noedge,left]{profile}
 \name{Étienne}{St-Amant Audet}
-\position{Étudiant{\enskip\cdotp\enskip}Génie des technologies de l'information}
+\position{\fr{Étudiant}\en{IT engineering}{\enskip\cdotp\enskip}\fr{Génie des technologies de l'information}\en{Student}}
 %\address{}
 
 \mobile{\href{tel:15143773533}{(514) 377-3533}}
@@ -76,7 +73,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{«Pour réussir, il ne suffit pas de prévoir. Il faut aussi savoir improviser». --- Isaac Asimov}
+\quote{\fr{«Pour réussir, il ne suffit pas de prévoir. Il faut aussi savoir improviser».}\en{“To succeed, planning alone is insufficient. One must improvise as well.”} --- Isaac Asimov}
 
 
 %-------------------------------------------------------------------------------
@@ -85,18 +82,19 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+  {\fr{Équipe de recrutement}\en{Company Recruitment Team}}
+  {Google Inc.\\1253 Avenue McGill College\\Montréal, QC H3B 2Y5}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Application pour le poste DevOps}
+\lettertitle{\fr{Stagiaire en recherche}\en{Research Intern}}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{\fr{Cher M./Mme/Dr. NomdeFamille,}\en{Dear Mr./Ms./Dr. LastName,}}
 % How the letter is closed
-\letterclosing{Cordialement,}
+\letterclosing{\fr{Cordialement}\en{Sincerely},}
 % Any enclosures with the letter
-\letterenclosure[Attachement]{Curriculum Vitae}
+\fr{\letterenclosure[Attachement]{Curriculum Vitae}}
+\en{\letterenclosure[Attached]{Curriculum Vitae}}
 
 
 %-------------------------------------------------------------------------------
@@ -111,7 +109,7 @@
 \makecvfooter
   {\today}
   {Étienne St-Amant-Audet}
-  {Lettre de présentation}
+  {\fr{Lettre de présentation}\en{Coverletter}}
 
 % Print the title with above letter informations
 \makelettertitle
@@ -121,13 +119,16 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\lettersection{À\ propos de moi}
+\fr{\lettersection{À\ propos de moi}}
+\en{\lettersection{About Me}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
 
-\lettersection{Pourquoi Google?}
+\fr{\lettersection{Pourquoi\ Google?}}
+\en{\lettersection{Why\ Google?}}
 Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
 
-\lettersection{Pourquoi moi?}
+\fr{\lettersection{Pourquoi\ moi?}}
+\en{\lettersection{Why\ me?}}
 Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
 
 \end{cvletter}

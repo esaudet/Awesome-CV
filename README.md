@@ -29,9 +29,11 @@ You can see [PDF-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.pdf)
+You can see [PDF-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.pdf) and [PDF-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.pdf)
 
-[![Cover Letter(Awesome)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter.pdf)
+| cv-en | cv-fr |
+|:---:|:---:|
+| [![coverletter-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.pdf) | [![coverletter-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.pdf) |
 
 ## How to Use
 
