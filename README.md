@@ -31,7 +31,7 @@ You can see [PDF-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master
 
 You can see [PDF-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.pdf) and [PDF-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.pdf)
 
-| cv-en | cv-fr |
+| coverletter-en | coverletter-fr |
 |:---:|:---:|
 | [![coverletter-en](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-en.pdf) | [![coverletter-fr](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.png)](https://raw.githubusercontent.com/esaudet/Awesome-CV/master/preview/coverletter-fr.pdf) |
 
